@@ -186,6 +186,7 @@ font-size: 1rem;
   border: none;
   text-decoration: none;
   border-radius: 200px;
+
 }
 
 .hero-section .left-box .btn-box .btn1:hover {
@@ -227,4 +228,26 @@ font-size: 1rem;
 
     transform: translateY(-45px);
   }
+}
+
+/* 
+Subscribe Section */
+
+.heading-center {
+  text-align: center;
+  margin-top: 60px;
+}
+
+ .heading-center .btn-box .btn2 {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #c79e64;
+  color: #ffffff;
+  border-radius: 0;
+  transition: all 0.3s;
+  border: none;
+  text-decoration: none;
+  border-radius: 200px;
+  
+
 }
