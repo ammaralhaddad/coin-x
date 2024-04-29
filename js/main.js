@@ -1,5 +1,10 @@
+// Initiate the wowjs
+  new WOW().init();
 
-    new WOW().init();
 
-
-    
+  $(function () {
+    $(document).scroll(function () {
+      var $nav = $(".navbar-fixed-top");
+      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+  });

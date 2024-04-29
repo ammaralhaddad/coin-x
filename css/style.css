@@ -9,7 +9,7 @@ body {
   color: #141414;
   font-weight: 400;
   font-style: normal;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 /* Hero Section */
 .hero-area {
@@ -42,15 +42,19 @@ body {
 }
 
 /* Nav Section */
+
 .logo {
   width: 80px;
+
 }
 .custom-nav-container {
   padding: 0;
+
 }
 
 .custom-nav-container .navbar-nav {
   margin-left: auto;
+ 
 }
 
 .custom-nav-container .navbar-nav .nav-item .nav-link {
@@ -59,7 +63,6 @@ body {
   text-align: center;
   text-transform: uppercase;
   border-radius: 5px;
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
@@ -144,6 +147,11 @@ body {
   top: 0;
 }
 
+.navbar-fixed-top.scrolled {
+  background-color: #141414 !important;
+  opacity: 95%;
+}
+
 /* Hero Section */
 
 .hero-section {
@@ -196,8 +204,6 @@ body {
   animation: upDown 5s infinite;
 }
 
-
-
 @keyframes upDown {
   0% {
     transform: translateY(-45px);
@@ -230,8 +236,7 @@ Subscribe Section */
   border-radius: 200px;
 }
 
-
-.heading-center  .btn-box .btn2:hover {
+.heading-center .btn-box .btn2:hover {
   background-color: #55b4e8;
 }
 
@@ -305,17 +310,16 @@ Subscribe Section */
   border-radius: 200px;
 }
 
-
 .buy-section .btn-box .btn2:hover {
   background-color: #55b4e8;
 }
 
-
-
-
 /* Responsive Section */
 
 @media (max-width: 992px) {
+  .hero-area {
+    min-height: auto;
+  }
 
   .hero-area {
     background: linear-gradient(130deg, #141414, #000000);
