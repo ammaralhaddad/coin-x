@@ -11,6 +11,10 @@ body {
   font-style: normal;
   overflow-x: hidden;
 }
+
+/* 
+Main Colors */
+
 /* Hero Section */
 .hero-area {
   position: relative;
@@ -45,16 +49,14 @@ body {
 
 .logo {
   width: 80px;
-
+  margin-left: 20px;
 }
 .custom-nav-container {
   padding: 0;
-
 }
 
 .custom-nav-container .navbar-nav {
   margin-left: auto;
- 
 }
 
 .custom-nav-container .navbar-nav .nav-item .nav-link {
@@ -325,3 +327,5 @@ Subscribe Section */
     background: linear-gradient(130deg, #141414, #000000);
   }
 }
+
+
