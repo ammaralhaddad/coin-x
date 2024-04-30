@@ -12,8 +12,32 @@ body {
   overflow-x: hidden;
 }
 
-/* 
-Main Colors */
+.back-to-top {
+  position: fixed;
+  display: none;
+  right: 45px;
+  bottom: 45px;
+  z-index: 100;
+}
+
+.btn {
+  font-weight: 500;
+  transition: .5s;
+  background-color: #3197e1 !important;
+}
+
+.btn:hover {
+  box-shadow: 0 0 10px #141414;
+}
+
+
+.btn-lg-square {
+  width: 48px;
+  height: 48px;
+  border-radius: 100px !important;
+}
+
+
 
 /* Hero Section */
 .hero-area {
@@ -321,7 +345,7 @@ Subscribe Section */
 
 .service-section p {
   color: #3197e2;
- font-size: 22px;
+  font-size: 22px;
 }
 
 .service-section .box {
@@ -333,8 +357,6 @@ Subscribe Section */
   padding: 20px;
   border-radius: 10px;
 }
-
-
 
 .service-section .box .img-box {
   display: flex;
@@ -351,12 +373,12 @@ Subscribe Section */
   max-height: 100%;
 }
 
-.service-section .box .detail-box h5  {
+.service-section .box .detail-box h5 {
   font-weight: bold;
   color: #141414;
 }
 
-.service-section .box .detail-box p  {
+.service-section .box .detail-box p {
   color: #141414;
   font-size: 1rem;
 }
@@ -369,32 +391,27 @@ Subscribe Section */
 .service-section .box .detail-box a:hover {
   color: #3197e1;
   text-decoration: none;
- 
 }
 
 /* Footer Section */
 
-.padding-layout-2{
+.padding-layout-2 {
   padding: 40px 0;
 }
 
 .footer-section .footer-box a {
-text-decoration: none;
-color: #141414;
+  text-decoration: none;
+  color: #141414;
 }
 
 .footer-section .footer-box a:hover {
   color: #3197e1;
-  }
+}
 
-
-
-
-.footer-section .company-links{
+.footer-section .company-links {
   display: flex;
   flex-direction: column;
 }
-
 
 .footer-section .company-links a {
   display: flex;
@@ -407,17 +424,29 @@ color: #141414;
   color: #3197e1;
 }
 
-
-
-
 /* Responsive Section */
 
 @media (max-width: 992px) {
   .hero-area {
     min-height: auto;
-  }
-
-  .hero-area {
     background: linear-gradient(130deg, #141414, #000000);
   }
+
+  .navbar-fixed-top {
+    background-color: #141414 !important;
+  }
+
+  .navbar-fixed-top.scrolled {
+    background-color: #141414 !important;
+    opacity: 100% !important;
+  }
+
+.hero-section{
+  margin-top: 100px;
+  align-content: center;
+}
+
+
+
+
 }
