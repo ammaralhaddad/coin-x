@@ -178,7 +178,7 @@ Main Colors */
 
 .hero-section .left-box p {
   color: #ffffff;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .hero-section .left-box .btn-box .btn1 {
@@ -246,13 +246,6 @@ Subscribe Section */
   margin-bottom: 80px;
 }
 
-/* Buy section */
-
-.buy-section {
-  background-color: #141414;
-  color: #ffffff;
-}
-
 .padding-layout {
   padding: 80px 0;
 }
@@ -269,7 +262,7 @@ Subscribe Section */
 }
 
 .buy-section .img-box img {
-  max-width: 100%;
+  max-width: 95%;
   height: auto;
 }
 
@@ -283,9 +276,11 @@ Subscribe Section */
 
 .buy-section .right-box h4 {
   color: #3197e2;
+  font-size: 1.375rem;
 }
 .buy-section .right-box p {
   margin-top: 15px;
+  font-size: 1rem;
 }
 
 .buy-section .right-box a {
@@ -316,6 +311,69 @@ Subscribe Section */
   background-color: #55b4e8;
 }
 
+/* Service Section */
+
+.service-section {
+  background-color: #141414;
+  color: #ffffff;
+  position: relative;
+}
+
+.service-section p {
+  color: #3197e2;
+ font-size: 22px;
+}
+
+.service-section .box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: #f3f2f1;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+
+.service-section .box .img-box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 125px;
+  min-width: 75px;
+  height: 75px;
+  margin-bottom: 10px;
+}
+
+.service-section .box .img-box img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.service-section .box .detail-box h5  {
+  font-weight: bold;
+  color: #141414;
+}
+
+.service-section .box .detail-box p  {
+  color: #141414;
+  font-size: 1rem;
+}
+
+.service-section .box .detail-box a {
+  color: #141414;
+  font-weight: 800;
+}
+
+.service-section .box .detail-box a:hover {
+  color: #3197e1;
+  text-decoration: none;
+ 
+}
+
+
+
 /* Responsive Section */
 
 @media (max-width: 992px) {
@@ -327,5 +385,3 @@ Subscribe Section */
     background: linear-gradient(130deg, #141414, #000000);
   }
 }
-
-
