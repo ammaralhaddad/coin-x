@@ -22,7 +22,7 @@ body {
 
 .btn {
   font-weight: 500;
-  transition: .5s;
+  transition: 0.5s;
   background-color: #3197e1 !important;
 }
 
@@ -30,14 +30,11 @@ body {
   box-shadow: 0 0 10px #141414;
 }
 
-
 .btn-lg-square {
   width: 48px;
   height: 48px;
   border-radius: 100px !important;
 }
-
-
 
 /* Hero Section */
 .hero-area {
@@ -432,6 +429,10 @@ Subscribe Section */
     background: linear-gradient(130deg, #141414, #000000);
   }
 
+  .hero-area .hero-bg-box {
+    display: none;
+  }
+
   .navbar-fixed-top {
     background-color: #141414 !important;
   }
@@ -441,12 +442,8 @@ Subscribe Section */
     opacity: 100% !important;
   }
 
-.hero-section{
-  margin-top: 100px;
-  align-content: center;
-}
-
-
-
-
+  .hero-section {
+    margin-top: 100px;
+    align-content: center;
+  }
 }
