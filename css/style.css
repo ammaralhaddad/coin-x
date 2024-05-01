@@ -392,34 +392,22 @@ Subscribe Section */
 
 /* Footer Section */
 
-.padding-layout-2 {
-  padding: 40px 0;
-}
 
-.footer-section .footer-box a {
-  text-decoration: none;
-  color: #141414;
-}
-
-.footer-section .footer-box a:hover {
-  color: #3197e1;
-}
-
-.footer-section .company-links {
-  display: flex;
-  flex-direction: column;
+.footer-section h5 {
+  letter-spacing: 2px; 
+  color: #c79e64;"
 }
 
 .footer-section .company-links a {
-  display: flex;
-  align-items: center;
-  margin-bottom: 3px;
-  color: #141414;
   text-decoration: none;
+  color: #141414;
 }
-.footer-section .company-links a:hover {
+
+
+.footer-section .company-link a:hover {
   color: #3197e1;
 }
+
 
 /* Responsive Section */
 
@@ -445,5 +433,48 @@ Subscribe Section */
   .hero-section {
     margin-top: 100px;
     align-content: center;
+  }
+
+  .hero-section .left-box h1 {
+    font-size: 2rem;
+  }
+  .hero-section .left-box p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    text-align: center;
+  }
+  .hero-section .left-box h1 {
+    font-size: 1.875rem;
+  }
+
+  .subscribe-section .heading-center h2 {
+    font-size: 1.875rem;
+  }
+
+  .buy-section {
+    text-align: center;
+  }
+  .buy-section .right-box h3 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .buy-section .right-box h4 {
+    text-align: center;
+  }
+  .buy-section .right-box p {
+    text-align: center;
+  }
+  .About-section h2 {
+    font-size: 1.875rem;
+  }
+  .service-section h2 {
+    font-size: 1.875rem;
+  }
+  .service-section .box {
+    margin-bottom: 30px;
   }
 }
