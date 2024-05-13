@@ -229,6 +229,14 @@ body {
   margin: 45px 0;
 }
 
+.hero-section .img-box-section{
+  margin: 45px 0;
+}
+
+.hero-section .img-box-section img {
+  width: 100%;
+}
+
 .hero-section .img-box img {
   width: 100%;
   animation: upDown 5s infinite;
@@ -397,6 +405,13 @@ Subscribe Section */
   text-decoration: none;
 }
 
+
+
+.horizontal-lines {
+  margin: auto;
+  color: #141414;
+  height: 2px;
+}
 /* Footer Section */
 
 
