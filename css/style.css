@@ -181,6 +181,7 @@ body {
   display: flex;
   flex: 1;
   align-items: center;
+  align-items: center;
   position: relative;
   padding: 45px 0 145px 0;
 }
@@ -194,6 +195,12 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.center-box{
+  text-align: center !important;
+  align-items: center;
   color: #ffffff;
 }
 
@@ -395,7 +402,7 @@ Subscribe Section */
 
 .footer-section h5 {
   letter-spacing: 2px; 
-  color: #c79e64;"
+  color: #c79e64;
 }
 
 .footer-section .company-links a {
